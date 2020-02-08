@@ -11,10 +11,10 @@ Inicio
 
       se(x % 2 <> 0)entao
          x <- x + 1
-      senao
-         soma <- 5 * x + 20
-          escreval("SOMA = ", soma)
       fimse
+      soma <- 5 * x + 20
+      escreval("SOMA = ", soma)
+
 
       escreva("Digite um número inteiro: ")
       leia(x)
